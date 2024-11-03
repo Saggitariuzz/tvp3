@@ -23,7 +23,7 @@ public class UI {
                 }
             }
             if(at.getCurrentState() == State.Z){
-                System.out.println("Цепочка входит в язык");
+                System.out.println("Цепочка является допустимой");
             }else{
                 System.out.println("Конечное состояние не достигнуто");
             }
